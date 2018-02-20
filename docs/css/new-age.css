@@ -1,3 +1,6 @@
+/*#FF3B51 RED */
+/*#00C3E3 BLUE*/
+
 html,
 body {
   width: 100%;
@@ -73,7 +76,8 @@ section h2 {
   letter-spacing: 1px;
 }
 
-#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+#mainNa#FF3B51 RED
+#00C3E3 BLUEv .navbar-brand:hover, #mainNav .navbar-brand:focus {
   color: #fcbd20;
 }
 
@@ -155,8 +159,8 @@ header.masthead {
   padding-bottom: 100px;
   color: white;
   background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #FF3B51, #00C3E3);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #00C3E3, #dc2430);
 }
 
 header.masthead .header-content {
@@ -398,9 +402,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #FF3B51;
+  background: -webkit-linear-gradient(#FF3B51, #FF3B51);
+  background: linear-gradient(#FF3B51, #FF3B51);
 }
 
 .text-primary {
@@ -434,4 +438,12 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+
+.text{
+  color: white;
+}
+.logo{
+  width: 60%;
 }

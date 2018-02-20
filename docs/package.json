@@ -1,0 +1,27 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Operation and information about ART3D development crew ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thce911/ART3D.git"
+  },
+  "keywords": [
+    "RA",
+    "APP",
+    "Education"
+  ],
+  "author": "Heriberto Cavazos Estrada, Agustin Humberto Diaz Morales, Edgar Barron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thce911/ART3D/issues"
+  },
+  "homepage": "https://github.com/Thce911/ART3D#readme",
+  "devDependencies": {
+    "localhost": "^0.2.3"
+  }
+}
