@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: #00C7D7;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
@@ -70,7 +70,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: #00C7D7;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -95,7 +95,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #00C7D7 !important;
   background-color: transparent;
 }
 
@@ -110,7 +110,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #00C7D7;
 }
 
 @media (min-width: 992px) {
@@ -140,7 +140,7 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #fdcc52;
+    color: #00C7D7;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -148,7 +148,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #00C7D7;
   }
 }
 
@@ -280,8 +280,8 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background-color:#FF3B51;
+  background-color: #FF3B51;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -406,9 +406,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: -webkit-linear-gradient(#FF3B51, #FF3B51);
   background: linear-gradient(#FF3B51, #FF3B51);
 }
-
+.bg-custom {
+  background-color: #00C7D7;
+}
 .text-primary {
-  color: #fdcc52;
+  color: #00C7D7;
 }
 
 .no-gutter > [class*='col-'] {
@@ -424,8 +426,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
+  border-color: #00C7D7;
+  background-color: #00C7D7;
 }
 
 .btn {
@@ -447,3 +449,16 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .logo{
   width: 60%;
 }
+
+.myicon{
+  width: 60px;
+  height: auto;
+  padding-bottom:20px;
+}
+
+.myicon2{
+  width: 80px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
