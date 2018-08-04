@@ -1,0 +1,17 @@
+.buttons{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    position: inherit;
+}
+
+.iconset{
+    width: 90px;
+    height: 90px;
+
+}
+
+.target{
+    width: 400px;
+    height: auto;
+}
