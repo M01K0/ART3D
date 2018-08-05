@@ -24,3 +24,77 @@
 .logo{
     fill: #ffffff;
 }
+
+.lnavbtns{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/btn_back.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:50%;
+    left:0%;
+    transform:
+    translate(0%,-50%);
+    -ms-transform:translate(-0%,-50%);
+}
+
+.rnavbtns{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/btn_next.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:50%;
+    right:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(0%,-50%);
+}
+
+.plnavbtns{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/btn_back.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:50%;
+    left:0%;
+    transform:
+    translate(0%,-50%);
+    -ms-transform:translate(-0%,-50%);
+}
+
+.prnavbtns{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/btn_next.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:50%;
+    right:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(0%,-50%);
+}
+
+.mySlides{
+    
+    height: auto;
+    padding: 10px;
+}
+.mySlidesP{
+    padding: 10px;
+    max-width: 100%;
+    
+    
+}
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}

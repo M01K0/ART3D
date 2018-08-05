@@ -47,6 +47,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#targets">Targets</a>
+              </li>
           </ul>
         </div>
       </div>
@@ -128,20 +131,47 @@
         </div>
       </div>
     </section>
-    <!--
-    <section class="download bg-primary text-center" id="download">
+
+    <section class="download bg-primary text-center" id="targets">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h3 class="text ">Conoce los targets</h3>
-            <img src="img/t00.png" alt="" class="target">
-            <p class="text"><small> target solo para demostración.</small></p>
+          <div class="col-md-5 mx-auto">
+              <div class="container-fluid">
+                <h2 class="text">Target Virtual</h2>
+                <img class="mySlides" src= "img/targets/Target2018_01.jpg" >
+                <img class="mySlides" src= "img/targets/Target2018_03.jpg" >
+                <img class="mySlides" src= "img/targets/Target2018_04.jpg" >
+                <img class="mySlides" src= "img/targets/Target2018_05.jpg" >
+                <img class="mySlides" src= "img/targets/Target2018_06.jpg" >
+                <img class="mySlides" src= "img/targets/Target2018_07.jpg" >
+                <img class="mySlides" src= "img/targets/Target2018_08.jpg" >
+
+                <button class="lnavbtns" onclick="plusDivs(-1)"></button>
+                <button class="rnavbtns" onclick="plusDivs(1)"></button>
+              </div>
+            <p class="text"><small>Estos son los targets virtuales se encuentran dentro de los cursos del ITESM, en la plataforma Canvas, es necesario ser alumno para encontrarlo en los cursos en linea.</small></p>
             <hr>
             
           </div>
+          <div class="col-md-6 mx-auto">
+              <div class="container-fluid">
+                <h2 class="text">Target Presencial</h2>
+                  <img class="mySlidesP" src= "img/targets/Target2018_p01.jpg" >
+                  <img class="mySlidesP" src= "img/targets/Target2018_p02.jpg" >
+                  <img class="mySlidesP" src= "img/targets/Target2018_p03.jpg" >
+                  <img class="mySlidesP" src= "img/targets/Target2018_p04.jpg" >
+                  <img class="mySlidesP" src= "img/targets/Target2018_p05.jpg" >
+  
+                  <button  class="plnavbtns" onclick="pplusDivs(-1)"></button>
+                  <button class="prnavbtns" onclick="pplusDivs(1)"></button>
+                </div>
+                <p class="text"><small>Estos son los targets presenciales estos son utilizados por profesores del ITESM en sus cursos presenciales.</small></p>
+                <hr>
+          </div>
         </div>
+        <p class="text"><small><b>**Nota:</b> Solo se puede visualizar un target a la vez.</small></p>
       </div>
-    </section>-->
+    </section>
 
     <section class="cta">
       <div class="cta-content">
@@ -184,6 +214,44 @@
     <script src="js/new-age.min.js"></script>
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+       <script>
+          var slideIndex = 1;
+          pshowDivs(slideIndex);
+          
+          function pplusDivs(n) {
+            pshowDivs(slideIndex += n);
+          }
+          
+          function pshowDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlidesP");
+            if (n > x.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+          </script>
   </body>
 
 </html>
